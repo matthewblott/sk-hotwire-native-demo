@@ -45,17 +45,10 @@
 </NavGroup>
 <h3>Advanced features</h3>
 <NavGroup>
-	<!-- <NavItem href="/new" icon="material-symbols:open-in-new" label="Load a page modally" /> -->
-  <!-- <Link class="flex items-center gap-3 bg-white p-4 md:flex-col md:rounded-lg" href="/new"> -->
-  <!--   <Icon icon="material-symbols:open-in-new" class="size-6 text-blue-400 md:size-10" /> -->
-  <!--   <div class="flex-1">Load a page modally (original)</div> -->
-  <!-- </Link> -->
-
   <a data-sveltekit-replacestate href="/new" class="flex items-center gap-3 bg-white p-4 md:flex-col md:rounded-lg" onclick={handleClick}>
     <Icon icon="material-symbols:open-in-new" class="size-6 text-blue-400 md:size-10" />
     <div class="flex-1">Load a page modally</div>
   </a>
-
 	<NavItem href="/numbers" icon="bi:phone" label="Intercept with a native view" />
 	<NavItem
 		href="https://svelte.dev/"
