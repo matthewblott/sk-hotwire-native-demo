@@ -3,7 +3,6 @@ import { tick } from 'svelte';
 import 'hotwire-native-bolt';
 
 window.HotwireNavigator.setStartVisitHandler(async (location, _restorationIdentifier, options) => {
-	console.log(location, options);
 	if(options.action === 'restore' && location.href !== window.location.href) {
 		return history.back();
 	}
